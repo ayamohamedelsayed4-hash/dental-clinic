@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlowDent - Modern Dental Clinic</title>
-    <!-- Bootstrap 5 CSS -->
+   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <!-- Font Awesome Icons -->
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- AOS Animation Library -->
+   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
     
     <style>
@@ -22,7 +22,7 @@
             overflow-x: hidden;
         }
 
-        /* Navbar & Header */
+        
         .navbar-custom {
             background-color: #ffffff;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -64,7 +64,7 @@
             transform: translateY(-2px);
         }
 
-        /* Hero Section */
+        
         .hero-section {
             background: #ffffff;
             border-radius: 32px;
@@ -127,12 +127,12 @@
             max-height: 480px;
         }
 
-        /* Section Titles */
+       
         .section-header { text-align: center; margin-bottom: 50px; }
         .section-title { font-size: 2.2rem; font-weight: 700; color: #167d8d; }
         .section-subtitle { color: #777777; font-size: 0.95rem; }
 
-        /* Custom Cards styling */
+       
         .feature-card {
             background: #ffffff;
             border: 1px solid #eef8fa;
@@ -162,7 +162,7 @@
             margin-bottom: 20px;
         }
 
-        /* Gallery Grid */
+       
         .gallery-img {
             width: 100%;
             height: 240px;
@@ -173,7 +173,7 @@
 
         .gallery-img:hover { transform: scale(1.03); }
 
-        /* Footer */
+       
         footer {
             background-color: #167d8d;
             color: #eef8fa;
@@ -195,7 +195,7 @@
 </head>
 <body>
 
-    <!-- 1. Navbar -->
+    
     <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
         <div class="container">
             <a class="brand-logo" href="#">Glow<span>Dent</span></a>
@@ -218,7 +218,7 @@
     </nav>
 
     <div class="container">
-        <!-- 2. Hero Section -->
+       
         <section id="home" class="hero-section my-4" data-aos="fade-up">
             <div class="row align-items-center g-4">
                 <div class="col-lg-6 ps-lg-4">
@@ -240,7 +240,7 @@
             </div>
         </section>
 
-        <!-- 3. About Clinic Section -->
+        
         <section id="about" class="py-5 my-4" data-aos="fade-up">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6">
@@ -261,7 +261,7 @@
             </div>
         </section>
 
-        <!-- 4. Services Section -->
+        
         <section id="services" class="py-5" data-aos="fade-up">
             <div class="section-header">
                 <span class="fw-bold text-uppercase small" style="color: #167d8d;">What We Offer</span>
@@ -314,7 +314,7 @@
             </div>
         </section>
 
-        <!-- 5. Why Choose Us Section -->
+        
         <section id="why-us" class="py-5" data-aos="fade-up">
             <div class="section-header">
                 <span class="fw-bold text-uppercase small" style="color: #167d8d;">Our Advantages</span>
@@ -355,7 +355,7 @@
             </div>
         </section>
 
-        <!-- 6. Gallery Section -->
+       
         <section id="gallery" class="py-5" data-aos="fade-up">
             <div class="section-header">
                 <span class="fw-bold text-uppercase small" style="color: #167d8d;">Clinic Preview</span>
@@ -369,7 +369,7 @@
         </section>
     </div>
 
-    <!-- 7. Footer -->
+    
     <footer>
         <div class="container">
             <div class="row g-4">
@@ -414,7 +414,7 @@
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- AOS Animation JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
