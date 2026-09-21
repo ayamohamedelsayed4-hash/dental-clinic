@@ -1,0 +1,2 @@
+<?php
+// Process appointment booking
